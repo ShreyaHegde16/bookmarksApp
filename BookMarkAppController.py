@@ -1,5 +1,7 @@
-from flask import Flask, jsonify, abort, request
+from flask import Flask, jsonify, abort, request, send_from_directory, send_file
 from service.search_data_service import *
+import os
+from shutil import copyfile
 
 app = Flask(__name__)
 
@@ -41,3 +43,11 @@ def update_bookmarks(id):
 def remove_bookmarks(id):
     message = delete_bookmarks(id)
     return message
+
+
+@app.route("/api/bookmarks/export/", methods=["GET"])
+def export_bookmarks():
+    result= send_file('model/data.json',attachment_filename='bookmarks.json',as_attachment=True)
+    return result
+
+    #return send_from_directory('/model/data.json', 'bookmarks.json', as_attachment=True)
