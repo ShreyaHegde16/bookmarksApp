@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02940087-d26b-4e4d-8fc1-1ca15a3ff27b" name="Default Changelist" comment="" />
+    <list default="true" id="02940087-d26b-4e4d-8fc1-1ca15a3ff27b" name="Default Changelist" comment="Book marks application">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/search_data_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/search_data_service.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1608656960066</updated>
     </task>
+    <task id="LOCAL-00001" summary="Book marks application">
+      <created>1608808198849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608808198849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Book marks application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Book marks application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

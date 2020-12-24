@@ -3,6 +3,7 @@ from dao.load_data import *
 
 def load_all_bookmarks():
     bookmarks = load_data()
+    print('BOOKMARKS LOADED')
     return bookmarks
 
 
@@ -61,6 +62,6 @@ def delete_bookmarks(id):
     index = get_bookmark_index_for_id(id)
     if index != -1:
         bookmarks.pop(index)
-        print(bookmarks)
+        load_bookmarks(bookmarks)
         return "Bookmark removed successfully"
     return "Bookmark with given id not found"
